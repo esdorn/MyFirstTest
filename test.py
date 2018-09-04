@@ -5,8 +5,3 @@
 def up(x):
     print(x)
     return x
-
-def down(x):
-    print(x-1)
-    return x
-
