@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'config',
+1 verbose cli   'set',
+1 verbose cli   'python',
+1 verbose cli   '/usr/bin/python2',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.21
+3 info using node@v8.11.1
+4 info config set "python" "/usr/bin/python2"
+5 error Error: EACCES: permission denied, open '/etc/npmrc'
+5 error  { Error: EACCES: permission denied, open '/etc/npmrc'
+5 error   errno: -13,
+5 error   code: 'EACCES',
+5 error   syscall: 'open',
+5 error   path: '/etc/npmrc' }
+6 error Please try running this command again as root/Administrator.
+7 error System Linux 4.14.62-v7+
+8 error command "/usr/bin/node" "/usr/bin/npm" "config" "set" "python" "/usr/bin/python2" "-g"
+9 error cwd /home/pi/myFirstTest
+10 error node -v v8.11.1
+11 error npm -v 1.4.21
+12 error path /etc/npmrc
+13 error syscall open
+14 error code EACCES
+15 error errno -13
+16 error stack Error: EACCES: permission denied, open '/etc/npmrc'
+17 verbose exit [ -13, true ]
