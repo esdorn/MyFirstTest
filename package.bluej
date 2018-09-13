@@ -29,6 +29,7 @@ target2.editor.x=89
 target2.editor.y=51
 target2.height=50
 target2.name=wordcounter
+target2.naviview.expanded=false
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
