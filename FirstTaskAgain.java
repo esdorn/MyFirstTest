@@ -42,5 +42,11 @@ public class FirstTaskAgain
         // put your code here
         return x+y;
     }
+    
+         public char testMethod(char letter)
+    {
+        // put your code here
+        return letter;
+    }
 
 }
