@@ -4,7 +4,7 @@
  * Write a description of class FirstTaskAgain here.
  * 
  * @author Kevin Hayes 
- * @version 1.0
+ * @version 3.0
  */
 public class FirstTaskAgain
 {
@@ -32,6 +32,12 @@ public class FirstTaskAgain
      * @return    description of the return value
      */
     public int sampleMethod(int y)
+    {
+        // put your code here
+        return x+y;
+    }
+    
+     public double sampleMethod(int y, double x)
     {
         // put your code here
         return x+y;
