@@ -47,10 +47,19 @@ public class FirstTaskAgain
         return x+y;
     }
     
+
          public void anotherMethod(String word)
     {
         // put your code here
         System.out.print(word);
+    }
+
+     public char testMethod(char letter)
+     {
+
+         // put your code here
+         return letter;
+
     }
 
 }

@@ -9,4 +9,6 @@ comment2.params=y\ x
 comment2.target=double\ sampleMethod(int,\ double)
 comment3.params=word
 comment3.target=void\ anotherMethod(java.lang.String)
-numComments=4
+comment4.params=letter
+comment4.target=char\ testMethod(char)
+numComments=5
